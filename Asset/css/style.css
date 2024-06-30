@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*my_navbar start*/
+.my_navbar{
+    background-color: rgb(255, 255, 255);
+    padding:20px 25px 25px 15px ;
+    border-bottom: 4px solid rgb(250, 244, 244);
+    z-index: 1;
+    padding-bottom: 10px;
+}
+.my_logo{
+    color: deeppink;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+.my_logo:hover{
+    color:#444444 ;
+}
+.custom_list{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.custom_list li a{
+    color:#444444;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}
+.custom_list li a:hover{
+    color:#4caf50;
+}
+.my_link {
+    color: deeppink;
+}
+.active:hover{
+    color: #444444;
+}
+.my_menudrop{
+    background-color: #4caf50;
+  color: aliceblue;
+}
+.drop_menu{
+  color: white;
+  border-bottom: 1px solid rgb(255, 252, 252);
+}
+/*my_navbar end*/
+
+/*my_text section start*/
+#my_text{
+    padding-top:95px;
+    padding-bottom: 90px;
+}
+.my_text h1{
+    margin-left: -10px;
+    font-size: 36px;
+    line-height: 50px !important;
+    color: #212121;
+    margin-bottom: 40px;
+}
+.my_text h3 strong{
+    margin-left: -8px;
+    font-size: 17px;
+    line-height:52px;
+    color: #212121;
+    font-weight:700;
+}
+.my_text p{
+    margin-left: -9px;
+    line-height: 1.6rem;
+
+}
+.my_text h5{
+    margin-left: -9px;
+    line-height: 0.9rem;
+    font-family: sans-serif;
+    text-align: left;
+    padding-bottom:55px;
+    font-size: 17px;
+
+}
+.my_text h2{
+    margin-left: -9px;
+    line-height:0.9rem ;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 17px;
+}
+.my_text h2 a{
+    padding-left: 10px;
+    color: deeppink;
+    text-decoration: none;
+}
+.my_text h2 a:hover{
+    color: #000;
+}
+.my_infocard{
+    padding-left: 8px;
+}
+/*my_text section end*/
+
+/*my skills_area start*/
+#skills_area{
+    background-color: #d4d4d444;
+    padding-bottom: 30px;
+}
+.my_skills{
+    padding-top: 40px;
+}
+.my_skills h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #781D7f;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.my_skills h3{
+    font-size: 36px;
+
+}
+.my_service_info{
+    position: relative;
+    padding: 27px 25px 60px;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 36px;
+}
+.service_icon{
+    font-size: 60px;
+    color: #781D7f;
+}
+.service_text a {
+    text-decoration: none;
+    color: violet;
+    font-weight: 600;
+}
+.service_text a:hover{
+    color: #000;
+}
+.service_text p{
+    padding-top:8px;
+}
+/*my skills_area end*/
+
+/*my contact start*/
+    #my_contact{
+        background-color: #781D7f;
+        padding: 30px;
+    }
+    .contact_info h1{
+        color: #ffff;
+        font-weight: bold;
+        padding:20px;
+    }
+    .custom_but{
+        background-color: aliceblue;
+        margin-top: 21px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 7px;
+    }
+    .custom_but a{
+        font-size: 22px;
+        color: #000;
+        text-decoration: none;
+        font-family: math;
+    }
+/*my contact end*/
+
+/*my_isotope start*/
+#my_isotope_info{
+    padding-top: 100px;
+}
+.isotope_heading h4{
+    color: #781D7f;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.isotope_heading h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 25px;
+}
+.item-menubar{
+    text-align: center;
+    margin: 30px auto;
+}
+.item-menubar button {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    width: 90px;
+    height: 35px;
+}
+.item-menubar button:hover,.item-menubar button:active{
+    background-color: blueviolet;
+    color: rgb(252, 249, 249);
+}
+.item-details{
+    position: relative;
+  width: 90%;
+  display: flex;
+}
+.item-details img{
+    width: 100%;
+ padding: 20px;
+ display:block;
+ height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 27px;
+    right: 0;
+    background-color: #161616dc;
+    overflow: hidden;
+    width: 80%;
+    height: 0;
+    transition: .5s ease;
+}
+.item-details:hover .overlay{
+    height: 100%;
+}
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+/*my_isotope end*/
+
+/*my link start*/
+#my_link{
+    padding-top: 20px;
+}
+.click_link{
+    border: 4px solid blueviolet;
+    display: flex;
+}
+.click_link h3{
+    font-size: 70px;
+    color: #781D7f;
+    padding:15px;
+}
+.click_link p{
+    padding:15px;
+    color: #000000b3;
+    font-family: sans-serif;
+}
+.click_link a{
+    background-color: #781D7f;
+    color: #fff;
+    padding: 14px 13px 14px 30px;
+    border-radius: 41px;
+    margin-top: 18px;
+    text-decoration: none;
+    width: 40%;
+    height: 73px;
+}
+.click_link a:hover{
+    background-color: #c2bdbd33;
+}
+/*my link end*/
+
+/*my counter start*/
+#counter{
+    background-image: url(../Asset/images/1098109.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+   margin-top: 40px;
+}
+.my_counter{
+    padding: 30px 45px;
+    counter-reset: section;
+}
+.fonts_icon{
+    font-size: 55px;
+    padding-left:2px;
+    color: #104cf0;
+}
+.my_counter h1{
+    color: #ffff;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {color: #104cf0;}
+    to {color: chocolate;}
+  }
+.my_counter h4{
+    color: #ffff;
+    padding-left: 4px;
+}
+.my_counter h1::before{
+    counter-increment: section;
+    content: "" counter(section);
+}
+/*my counter end*/
+
+/*my slick start*/
+#my_slick{
+    padding-top: 90px;
+    
+}
+.slick_headings h5{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #781D7f;
+}
+.slick_headings h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.responsive{
+    display: flex;
+}
+.responsive img{
+    width: 250px;
+    height: auto;
+    padding: 10px 5px 5px 10px;
+}
+/*my slick end*/
+
+/*footer section start*/
+#my_footer{
+    background-color: #000;
+}
+.my_footer p{
+    color: #ffff;
+    padding: 35px;
+}
+/*footer section end*/
